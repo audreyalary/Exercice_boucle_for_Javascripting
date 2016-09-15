@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quete tas de patates</title>
+</head>
+
+<body>
+
+    <script>
+        let result = prompt("Hey mon ami ! Tu aimes ça les patates ?");
+        let Tab = ['#',
+            '##',
+            '###',
+            '####',
+            '######',
+            '#######']
+
+
+
+        if (result === 'oui') {
+            for (let i = 0; i < Tab.length; i++) {
+                console.log(Tab[i]);
+            }
+        } else if (result === 'non') {
+            alert("c'est bien dommage !");
+        } else {
+            alert("Je vous sens comme tiraillé");
+        }
+      
+
+
+    </script>
+
+
+
+</body>
+
+</html>
